@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;   
+}
+.page-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+}
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.left-column {
+    flex: 1;
+    margin-right: 20px; /* Add spacing between columns */
+}
+.right-column {
+    flex: 3;
+}
+.leaderboard {
+    flex: 1; /* 25% of the width */
+    margin-right: 20px; /* Add spacing between columns */
+}
+.mastery {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-right: 20px;
+}
+.charts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Vertically space the charts */
+}
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center the charts horizontally */
+}
+.chart-container canvas {
+    margin-bottom: 10px; /* Add some spacing between the charts */
+    max-width: 100%; /* Ensure charts don't exceed container width */
+}
+.leaderboard-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px 0;
+}
+.page-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon {
+    width: 50px; /* Adjust the icon size as needed */
+    height: 50px; /* Adjust the icon size as needed */
+    margin-right: 5px; /* Add spacing between icons and text */
+    vertical-align: middle; /* Vertically align the icon */
+}
+.course-link, .quiz-link {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set link color */
+}
+.course-link:hover, .quiz-link:hover {
+    color: #007bff; /* Set link color on hover */
+}
+.courses {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quizes {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+th {
+    text-align: center;
+    padding: 20px;
+}
